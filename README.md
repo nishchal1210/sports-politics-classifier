@@ -50,6 +50,43 @@ python B23CM1053_prob4.py \
   --test-size           0.2   # fraction held out for test    (default: 0.2)
   --delay               0.3   # seconds between API requests  (default: 0.3)
 ```
+---
+
+# 🖥️ Interactive Classification Mode
+
+After training all 9 configurations and printing the evaluation results, the script automatically enters **interactive mode**.
+
+This allows you to:
+
+- Select a feature representation
+- Select a trained classifier
+- Provide a `.txt` document from your local directory
+- Obtain a prediction (Sports / Politics) with confidence score
+
+---
+
+## 🔄 How It Works
+
+After results are displayed, you will see:
+
+```terminal
+Interactive classification mode.
+
+Available feature representations:
+  1. bow_unigram
+  2. tfidf_unigram
+  3. tfidf_1_3gram
+
+Select feature (enter number, e.g. 1):
+
+Available trained models:
+  1. LogisticRegression
+  2. LinearSVC
+  3. RandomForest
+
+Select model (enter number, e.g. 2):
+
+Enter path to a text file to classify (or type 'quit' to exit):
 
 ### Expected Terminal Output
 
