@@ -218,14 +218,16 @@ Short, neutral encyclopaedic articles. Likely degrades on social media, blogs, o
 ```
 sports-politics-classifier/
 │
-├── B23CM1053_prob4.py               ← main pipeline
+├── src/
+|   └── B23CM1053_prob4.py               ← main pipeline
 │
 ├── outputs/
-│   └── results_summary_wikinews.csv  ← all 9 experiment results
+│   └── results_summary_wikinews.csv     ← all 9 experiment results
 │
-├── B23CM1053_prob4_report.pdf        ← full 12-page LaTeX report
+├── report/
+|   └── B23CM1053_prob4.pdf              ← full 12-page LaTeX report
 │
-└── README.md                         ← you are here
+└── README.md                            ← you are here
 ```
 
 ---
