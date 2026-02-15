@@ -127,6 +127,9 @@ Select model (enter number, e.g. 2):
 
 Enter path to a text file to classify (or type 'quit' to exit):
 
+```
+
+
 ## 🧮 Feature Representations
 
 All three representations are built **entirely from scratch** in pure NumPy — no `CountVectorizer` or `TfidfVectorizer`.
